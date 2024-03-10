@@ -1,0 +1,63 @@
+# .gitignore
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# IDE files
+.idea
+
+# Log files
+*.log
+
+# Build files
+**/dist
+
+# Real-time logs
+logs
+*.log
+npm-debug.log*
+
+# PID files
+*.pid
+
+# Directory for instrumented runs (see gocov)
+coverage/
+
+# Generated files by yacc
+y.go
+
+# Generated files by protobuf
+*.pb.go
+
+# Debug output
+debug/
+
+# Kubernetes generated files
+*.generated.go
+
+# dotenv environment variables file
+.env
+
+# binary
+bin/
+
+# Ignore all buildpacks
+packs
+
+# Visual Studio Code files
+.vscode/
+
+# Ignore Mac files
+.DS_Store
